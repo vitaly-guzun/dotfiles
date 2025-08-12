@@ -1,0 +1,86 @@
+{
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "console-ninja.featureSet": "Community",
+  "terminal.integrated.env.osx": {},
+  "editor.formatOnType": true,
+  "keyboard.dispatch": "keyCode",
+  "editor.scrollBeyondLastLine": false,
+  "notebook.formatOnSave.enabled": true,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.snippetSuggestions": "top",
+  "emmet.showSuggestionsAsSnippets": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "explorer.confirmDelete": false,
+  "files.watcherExclude": {
+    "./node_modules": true,
+    "node_modules": true,
+    "node_modules/@types/**": true
+  },
+  "search.exclude": {
+    "**/node_modules/@types/react": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": false,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "editor.tabSize": 2,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.tsx": "${capture}.ts, ${capture}.d.ts, ${capture}.d.ts.map",
+    "*.ts": "${capture}.js, ${capture}.ts, ${capture}.d.ts, ${capture}.d.ts.map"
+  },
+  "eslint.format.enable": true,
+  "workbench.startupEditor": "none",
+  "github.copilot.editor.enableCodeActions": false,
+  "workbench.colorTheme": "Default Dark+",
+  "typescript.tsserver.maxTsServerMemory": 10240,
+  "typescript.tsserver.nodePath": "node",
+  "workbench.enableExperiments": false,
+  "workbench.editor.tabSizingFixedMaxWidth": 120,
+  "githubPullRequests.pullBranch": "never",
+  "workbench.editor.wrapTabs": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "typescript.tsserver.experimental.useVsCodeWatcher": false,
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.enableVisualBell": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "multiple",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "prettier.singleQuote": true,
+  "editor.formatOnPaste": true,
+  "eslint.debug": true,
+  "[go]": {
+    "editor.indentSize": "tabSize",
+    "editor.guides.indentation": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go",
+    "editor.detectIndentation": true
+  },
+  "html.format.wrapLineLength": 100,
+  "workbench.editor.editorActionsLocation": "titleBar"
+}

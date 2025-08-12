@@ -1,0 +1,17 @@
+{
+  "Print to console": {
+    "prefix": "cll",
+    "body": ["console.log('$1: ', $1)"],
+    "description": "Log output to console"
+  },
+  "Print to console short": {
+    "prefix": "cl",
+    "body": ["console.log('$1')"],
+    "description": "Log output to console"
+  },
+  "Pause in spectator": {
+    "prefix": "ps",
+    "body": ["await bot$1.browser.pauseTest()"],
+    "description": "Log output to console"
+  }
+}

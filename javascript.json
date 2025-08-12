@@ -1,0 +1,12 @@
+{
+  "Print to console 2": {
+    "prefix": "cll",
+    "body": ["console.log('$1: ', $1)"],
+    "description": "Log output to console"
+  },
+  "Print to console": {
+    "prefix": "cl",
+    "body": ["console.log('$1');"],
+    "description": "Log output to console"
+  }
+}
